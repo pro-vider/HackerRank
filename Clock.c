@@ -9,7 +9,7 @@ void delay(unsigned int m_sec)
 }
 int main()
 {
-	int hr=0, min=0, sec=0;
+	int hr=0,min=0,sec=0;
 	time_t now;
 	time(&now);
 	struct tm *local = localtime(&now);
